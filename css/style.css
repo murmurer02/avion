@@ -197,7 +197,7 @@ h4 {
 
 .container-ceramics,
 .container-products {
-   height: 639px;
+
    display: flex;
    flex-direction: column;
    min-width: 1280px;
@@ -205,17 +205,25 @@ h4 {
 
 .container-ceramics--block,
 .container-products--block {
-   height: 462px;
+
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   gap: 45px;
+   gap: 20px;
 }
-
+.container-ceramics--item {
+   flex: 1;
+}
+.container-products--item {
+  flex: 1;
+}
+.container-products--item:first-child {
+   flex: 2;
+}
 .block-img {
    padding: 0 0 24px;
    width: 100%;
-   height: auto;
+   display: block;
 }
 
 .price {
