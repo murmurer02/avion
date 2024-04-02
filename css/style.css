@@ -211,12 +211,11 @@ h4 {
    justify-content: space-between;
    gap: 20px;
 }
-.container-ceramics--item {
+.container-ceramics--item,
+.container-products--item {
    flex: 1;
 }
-.container-products--item {
-  flex: 1;
-}
+
 .container-products--item:first-child {
    flex: 2;
 }
