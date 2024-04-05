@@ -16,12 +16,47 @@
 
 
 @font-face {
-   font-family:'ClashDisplay-Variable';
+   font-family: 'ClashDisplay-Variable';
    src: url('../fonts/ClashDisplay-Variable.woff2') format('woff2'), url('../fonts/ClashDisplay-Variable.woff') format('woff'), url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
    font-weight: 300 900;
    font-display: swap;
    font-style: normal;
 }
+
+.container {
+   margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+   .container {
+      padding: 0 24px;
+   }
+}
+
+@media (min-width: 576px) {
+   .container {
+      padding: 0 32px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      padding: 0 48px;
+   }
+}
+
+@media (min-width: 992px) {
+   .container {
+      padding: 0 60px;
+   }
+}
+
+@media (min-width: 1140px) {
+   .container {
+      padding: 0 80px;
+   }
+}
+
 
 .header--overline,
 .header--overline-text {
@@ -46,6 +81,7 @@
    justify-content: space-between;
    gap: 16px;
 }
+
 .header--line {
    margin: 0 28px;
    border-bottom: solid 1px;
@@ -62,6 +98,7 @@
    list-style: none;
    width: 675px;
    width: auto;
+
    a {
       font-family: 'Satoshi-Variable';
       font-weight: 400;
@@ -70,7 +107,7 @@
       cursor: pointer;
       text-decoration: none;
       color: #726E8D;
-   } 
+   }
 }
 
 .section-container {
@@ -102,6 +139,7 @@
    display: flex;
    flex-direction: column;
    gap: 41px;
+
    h2 {
       color: #FFFFFF;
       font-family: 'ClashDisplay-Variable';
@@ -109,6 +147,7 @@
       font-size: 32px;
       line-height: 45px;
    }
+
    a {
       font-weight: 400;
       font-family: 'Satoshi-Variable';
@@ -145,6 +184,7 @@ h3 {
    flex-direction: column;
    align-items: center;
 }
+
 .point-container {
    height: 355px;
    display: flex;
@@ -168,6 +208,7 @@ h3 {
    font-size: 16px;
    line-height: 24px;
    color: #2A254B;
+
    .point--img {
       padding: 0 0 16px;
    }
@@ -211,6 +252,7 @@ h4 {
    justify-content: space-between;
    gap: 20px;
 }
+
 .container-ceramics--item,
 .container-products--item {
    flex: 1;
@@ -219,6 +261,7 @@ h4 {
 .container-products--item:first-child {
    flex: 2;
 }
+
 .block-img {
    padding: 0 0 24px;
    width: 100%;
@@ -260,7 +303,7 @@ h4 {
    background-color: #FFFFFF;
    display: flex;
    flex-direction: column;
-   align-items: center; 
+   align-items: center;
 }
 
 .club-text {
@@ -289,6 +332,7 @@ h1 {
    display: grid;
    grid-template-columns: 4fr 1fr;
    border-color: transparent;
+
    a {
       cursor: pointer;
       text-decoration: none;
@@ -302,6 +346,7 @@ h1 {
       flex-direction: column;
       justify-content: center;
    }
+
    .input-sign {
       width: 354px;
       height: 56px;
@@ -331,6 +376,7 @@ h1 {
    display: flex;
    flex-direction: column;
    gap: 25px;
+
    .text--paragraph {
       font-family: 'Satoshi-Variable';
       font-weight: 400;
@@ -419,12 +465,12 @@ h5 {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      }
+   }
 
    .footer-input--sign {
       width: 509px;
       height: 56px;
-      color: #FFFFFF ;
+      color: #FFFFFF;
       background-color: lightgray;
       font-family: 'Satoshi-Variable';
       font-weight: 400;
@@ -432,18 +478,18 @@ h5 {
       line-height: 22px;
       padding: 17px 0 17px 32px;
       border-color: transparent;
-      }
+   }
 }
 
 .footer--line {
    margin: 0 80px;
    border-bottom: solid 1px;
-   color: #4E4D93; 
+   color: #4E4D93;
 }
 
 .footer-underline {
    padding: 24px 83px 22px;
-   display: flex; 
+   display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
