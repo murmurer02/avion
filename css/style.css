@@ -201,7 +201,6 @@ h3 {
    justify-content: space-evenly;
    align-items: center;
 }
-
 .point-container--block {
    display: flex;
    flex-direction: row;
