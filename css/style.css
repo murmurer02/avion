@@ -253,18 +253,7 @@ h4 {
    grid-column: span 2;
 }
 
-@media (max-width: 768px) {
-   .container-ceramics--block,
-   .container-products--block {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-   }
-   .button {
-      width: 100%;
-   }
-   
-}
- 
+
 .block-img {
    padding: 0 0 24px;
    width: 100%;
@@ -277,6 +266,35 @@ h4 {
    font-size: 18px;
    line-height: 27px;
    color: #2A254B;
+}
+
+@media (max-width: 768px) {
+
+   .container-ceramics--block,
+   .container-products--block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .button {
+      width: 100%;
+   }
+
+   h4 {
+      font-family: 'ClashDisplay-Variable';
+      font-size: 16px;
+   }
+
+   .points-small {
+      font-family: 'Satoshi-Variable';
+      font-size: 14px;
+   }
+
+   .h2 {
+      font-family: 'ClashDisplay-Variable';
+      font-size: 20px;
+   }
+
 }
 
 .button {
